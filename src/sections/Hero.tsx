@@ -86,7 +86,7 @@ export function Hero() {
             variants={fadeInUp}
             className="mb-5 flex justify-center lg:hidden"
           >
-            <div className="relative h-48 w-48 overflow-hidden rounded-2xl border border-border/80 bg-white/50 shadow-[var(--shadow-md)] sm:h-52 sm:w-52">
+            <div className="relative h-56 w-56 overflow-hidden rounded-2xl border border-border/80 bg-white/50 shadow-[var(--shadow-md)] sm:h-64 sm:w-64">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/profile1.svg"
@@ -165,7 +165,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.6 }}
-          className="mt-6 hidden flex-col items-center gap-2 self-center text-secondary lg:absolute lg:bottom-8 lg:left-1/2 lg:mt-0 lg:flex lg:-translate-x-1/2"
+          className="mt-8 flex flex-col items-center gap-2 self-center text-secondary lg:absolute lg:bottom-8 lg:left-1/2 lg:mt-0 lg:-translate-x-1/2"
           data-cursor="button"
         >
           <span className="text-[11px] font-medium uppercase tracking-[0.2em]">
