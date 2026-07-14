@@ -11,7 +11,7 @@ export interface Experience {
 export interface Skill {
   id: string;
   name: string;
-  category: "operations" | "leadership" | "systems" | "compliance";
+  category: "operations" | "leadership" | "technology";
   level: number;
   icon: string;
 }
@@ -58,6 +58,15 @@ export interface ContactInfo {
   phone: string;
   email: string;
   location: string;
-  linkedin: string;
+  nationality: string;
+  visaStatus: string;
+  linkedin?: string;
   resumeUrl: string;
+}
+
+export interface ContactItem {
+  label: string;
+  value: string;
+  href?: string;
+  icon: "phone" | "mail" | "map" | "visa" | "nationality";
 }

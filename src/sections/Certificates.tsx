@@ -17,7 +17,7 @@ export function Certificates() {
         <SectionHeading
           eyebrow="Certificates"
           title="Credentials that reinforce operational excellence."
-          description="Select a certificate to open a full immersive viewer — designed for clarity and polish."
+          description="Select a certificate to open the full viewer. Add more anytime via the certificates data array."
         />
 
         <CertificateGallery certificates={CERTIFICATES} />

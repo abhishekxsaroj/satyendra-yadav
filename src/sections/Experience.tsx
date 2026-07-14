@@ -14,8 +14,8 @@ export function Experience() {
       <div className="container-max relative">
         <SectionHeading
           eyebrow="Experience"
-          title="A career built on floor excellence and team leadership."
-          description="Progressive responsibility across warehouse operations, fulfillment, and supply chain coordination."
+          title="Progressive leadership across logistics and operations."
+          description="From frontline service excellence to Team Leader roles at EMX (Amazon Now) and Noon in Minutes."
           className="mb-8 md:mb-10"
         />
 

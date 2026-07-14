@@ -22,7 +22,7 @@ const manrope = Manrope({
 
 export const metadata: Metadata = {
   title: {
-    default: `${SITE.name} | Team Leader · Warehouse Operations`,
+    default: SITE.title,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,
@@ -30,21 +30,24 @@ export const metadata: Metadata = {
     "Warehouse Operations",
     "Supply Chain Management",
     "Team Leader",
-    "Fulfillment",
+    "Fulfillment Operations",
     "Logistics",
+    "Inventory Management",
+    "Dubai",
+    "UAE",
     "Satyendra Kumar Yadav",
   ],
   authors: [{ name: SITE.name }],
   openGraph: {
-    title: `${SITE.name} | Warehouse Operations Leader`,
+    title: SITE.title,
     description: SITE.description,
     type: "website",
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: `${SITE.name} | Warehouse Operations Leader`,
-    description: SITE.tagline,
+    title: SITE.title,
+    description: SITE.description,
   },
   robots: {
     index: true,

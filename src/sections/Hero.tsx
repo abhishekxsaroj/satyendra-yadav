@@ -101,7 +101,7 @@ export function Hero() {
             variants={fadeInUp}
             className="mb-2.5 text-sm font-semibold uppercase tracking-[0.22em] text-primary sm:mb-5"
           >
-            Warehouse Operations · Supply Chain
+            {SITE.subtitle}
           </motion.p>
 
           <motion.h1
@@ -113,10 +113,7 @@ export function Hero() {
 
           <motion.div variants={fadeInUp} className="mt-3 space-y-1 sm:mt-5">
             <p className="text-lg font-medium text-foreground/90 sm:text-xl">
-              Team Leader
-            </p>
-            <p className="text-base text-secondary sm:text-lg">
-              Warehouse Operations · Supply Chain Management
+              {SITE.role}
             </p>
           </motion.div>
 

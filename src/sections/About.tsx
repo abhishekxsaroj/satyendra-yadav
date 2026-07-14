@@ -11,8 +11,8 @@ export function About() {
       <div className="container-max">
         <SectionHeading
           eyebrow="About"
-          title="Operational leadership grounded in discipline and people."
-          description="Building reliable fulfillment systems while developing teams that deliver under pressure."
+          title={ABOUT.title}
+          description={ABOUT.description}
         />
 
         <div className="grid gap-12 lg:grid-cols-12 lg:gap-16">

@@ -11,8 +11,8 @@ export function Education() {
       <div className="container-max">
         <SectionHeading
           eyebrow="Education"
-          title="Continuous learning behind the leadership."
-          description="Formal education paired with ongoing professional development in supply chain and operations."
+          title="Academic foundation behind the leadership."
+          description="Formal education from MGKV University and the Allahabad UP Board."
         />
 
         <div className="relative max-w-3xl">

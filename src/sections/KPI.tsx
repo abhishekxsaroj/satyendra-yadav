@@ -18,7 +18,7 @@ export function KPI() {
         <SectionHeading
           eyebrow="Impact"
           title="Results that matter on the floor and in the numbers."
-          description="Measurable outcomes across team leadership, fulfillment reliability, and inventory integrity."
+          description="Team leadership scale, compliance focus, and experience across leading UAE logistics environments."
           align="center"
           className="mx-auto"
         />
