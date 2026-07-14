@@ -77,33 +77,38 @@ export const EXPERIENCES: Experience[] = [
     id: "exp-1",
     company: "EMX (Amazon Now)",
     role: "Team Leader – Operations",
-    location: "Dubai, UAE",
+    location: "Dubai, United Arab Emirates",
     period: "December 2025 — Present",
-    description: [
-      "Lead and manage daily warehouse operations for a team of 20 staff.",
-      "Plan workflows and allocate operational tasks.",
-      "Monitor employee performance and KPIs.",
-      "Coordinate inventory, dispatch and quality teams.",
-      "Resolve operational issues in real time.",
-      "Ensure SOP and safety compliance.",
-      "Train and onboard new team members.",
-      "Improve warehouse productivity and operational efficiency.",
-      "Achievement: Streamlined warehouse operations by improving productivity, reducing fulfillment errors, increasing inventory accuracy, and consistently achieving operational KPIs.",
+    current: true,
+    logoInitials: "EMX",
+    summary:
+      "Leading warehouse and fulfillment operations within a fast-paced e-commerce environment, driving operational excellence through effective leadership, process optimization, and data-driven decision making.",
+    responsibilities: [
+      "Lead and supervise a team of 20+ warehouse associates.",
+      "Plan daily workflows and allocate operational tasks efficiently.",
+      "Monitor KPIs, productivity, and service performance.",
+      "Coordinate with inventory, dispatch, and quality control teams.",
+      "Train and mentor new team members while ensuring SOP and safety compliance.",
+      "Resolve operational challenges to maintain seamless warehouse operations.",
     ],
+    achievement:
+      "Improved warehouse productivity, reduced fulfillment errors, increased inventory accuracy, and consistently achieved operational KPIs through continuous process improvements.",
   },
   {
     id: "exp-2",
-    company: "Noon in Minutes · Noon.com",
+    company: "Noon in Minutes",
     role: "Shift Lead – Operations",
-    location: "Dubai, UAE",
+    location: "Dubai, United Arab Emirates",
     period: "July 2024 — November 2025",
-    description: [
-      "Warehouse Operations",
-      "Dark Store Management",
-      "Inventory Coordination",
-      "Shift Supervision",
-      "Fulfillment Operations",
-      "Operational Excellence",
+    logoInitials: "NM",
+    summary:
+      "Managed daily dark store operations, ensuring efficient order fulfillment, inventory accuracy, and smooth coordination between warehouse teams in a high-volume e-commerce environment.",
+    responsibilities: [
+      "Supervised daily warehouse operations and shift activities.",
+      "Coordinated inventory movement and order fulfillment.",
+      "Maintained operational KPIs and productivity targets.",
+      "Supported continuous process improvements across warehouse operations.",
+      "Assisted in workforce planning and shift coordination.",
     ],
   },
   {
@@ -112,15 +117,15 @@ export const EXPERIENCES: Experience[] = [
     role: "Shop Assistant",
     location: "United Arab Emirates",
     period: "October 2018 — June 2024",
-    description: [
-      "Customer Service",
-      "Sales",
-      "POS Operations",
-      "Cash Handling",
-      "Online Order Processing",
-      "Store Operations",
-      "Inventory Assistance",
-      "Daily Reconciliation",
+    logoInitials: "CC",
+    summary:
+      "Supported daily retail operations by delivering exceptional customer service, managing transactions, processing online orders, and contributing to overall store performance.",
+    responsibilities: [
+      "Assisted customers with product selection and purchases.",
+      "Managed POS transactions, refunds, and payment processing.",
+      "Processed online orders and customer reservations.",
+      "Supported inventory organization and daily store operations.",
+      "Helped achieve store sales targets and customer satisfaction goals.",
     ],
   },
   {
@@ -129,13 +134,14 @@ export const EXPERIENCES: Experience[] = [
     role: "Customer Service Assistant",
     location: "India",
     period: "May 2018 — September 2018",
-    description: [
-      "Customer Support",
-      "Order Processing",
-      "Email Support",
-      "Complaint Resolution",
-      "Administration",
-      "Reporting",
+    logoInitials: "YC",
+    summary:
+      "Delivered responsive customer support by managing inquiries, processing orders, resolving service issues, and maintaining accurate operational records.",
+    responsibilities: [
+      "Responded to customer inquiries via phone and email.",
+      "Processed customer orders accurately.",
+      "Resolved complaints professionally.",
+      "Maintained customer records and prepared operational reports.",
     ],
   },
   {
@@ -144,9 +150,14 @@ export const EXPERIENCES: Experience[] = [
     role: "Cashier",
     location: "India",
     period: "May 2015 — April 2018",
-    description: [
-      "Handled cashier operations, billing accuracy, and customer transactions.",
-      "Supported daily store cash reconciliation and front-of-house service quality.",
+    logoInitials: "AZ",
+    summary:
+      "Managed front-end cash operations while ensuring transaction accuracy and providing excellent customer service in a fast-paced restaurant environment.",
+    responsibilities: [
+      "Processed cash and card transactions.",
+      "Maintained accurate financial records.",
+      "Assisted customers with billing and payments.",
+      "Supported smooth day-to-day restaurant operations.",
     ],
   },
 ];

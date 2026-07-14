@@ -4,9 +4,14 @@ export interface Experience {
   role: string;
   location: string;
   period: string;
-  description: string[];
+  summary: string;
+  responsibilities: string[];
+  achievement?: string;
+  current?: boolean;
   logo?: string;
+  logoInitials?: string;
 }
+
 
 export interface Skill {
   id: string;
