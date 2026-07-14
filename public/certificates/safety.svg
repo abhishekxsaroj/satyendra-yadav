@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" fill="none">
+  <rect width="800" height="560" rx="16" fill="#F0F9FF"/>
+  <rect x="40" y="40" width="720" height="480" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <circle cx="400" cy="130" r="36" fill="#DBEAFE"/>
+  <text x="400" y="138" text-anchor="middle" font-family="system-ui,sans-serif" font-size="22" fill="#2563EB"></text>
+  <text x="400" y="200" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" font-weight="700" fill="#0F172A">Occupational Health &amp; Safety</text>
+  <text x="400" y="240" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#64748B">International Safety Institute</text>
+  <text x="400" y="300" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#2563EB">Satyendra Kumar Yadav</text>
+  <text x="400" y="340" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#64748B">Certified in workplace safety leadership &amp; compliance</text>
+  <text x="400" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94A3B8">Issued 2023</text>
+</svg>

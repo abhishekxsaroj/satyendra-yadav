@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" fill="none">
+  <rect width="800" height="560" rx="16" fill="#F8FAFC"/>
+  <rect x="40" y="40" width="720" height="480" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="340" y="90" width="120" height="40" rx="20" fill="#E0F2FE"/>
+  <text x="400" y="116" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="700" fill="#0284C7">YELLOW BELT</text>
+  <text x="400" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" font-weight="700" fill="#0F172A">Lean Six Sigma</text>
+  <text x="400" y="220" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#64748B">Process Excellence Council</text>
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#2563EB">Satyendra Kumar Yadav</text>
+  <text x="400" y="330" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#64748B">Continuous improvement &amp; waste reduction methods</text>
+  <text x="400" y="400" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94A3B8">2023</text>
+</svg>

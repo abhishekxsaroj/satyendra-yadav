@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560" fill="none">
+  <rect width="800" height="560" rx="16" fill="#F8FAFC"/>
+  <rect x="40" y="40" width="720" height="480" rx="12" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="60" y="70" width="80" height="8" rx="4" fill="#2563EB" opacity="0.8"/>
+  <text x="400" y="140" text-anchor="middle" font-family="system-ui,sans-serif" font-size="28" font-weight="700" fill="#0F172A">Certificate of Completion</text>
+  <text x="400" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" fill="#64748B">Warehouse Operations Excellence</text>
+  <text x="400" y="240" text-anchor="middle" font-family="system-ui,sans-serif" font-size="18" font-weight="600" fill="#2563EB">Satyendra Kumar Yadav</text>
+  <text x="400" y="280" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" fill="#64748B">has successfully completed the professional program</text>
+  <text x="400" y="320" text-anchor="middle" font-family="system-ui,sans-serif" font-size="16" font-weight="600" fill="#0F172A">Supply Chain Academy</text>
+  <text x="400" y="360" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" fill="#94A3B8">2024</text>
+  <rect x="280" y="400" width="240" height="2" fill="#E2E8F0"/>
+  <text x="400" y="440" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#94A3B8">Authorized Credential � Placeholder Asset</text>
+</svg>
