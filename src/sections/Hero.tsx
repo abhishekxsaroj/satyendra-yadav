@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative overflow-hidden gradient-mesh min-h-0 lg:min-h-[100svh]"
+      className="relative min-h-[82svh] overflow-hidden gradient-mesh lg:min-h-[100svh]"
     >
       {/* Floating blobs */}
       <motion.div
@@ -74,19 +74,19 @@ export function Hero() {
         />
       </svg>
 
-      <div className="section-pad container-max relative z-10 flex flex-col justify-start pt-20 pb-8 lg:min-h-[100svh] lg:justify-center lg:pb-24 lg:pt-28">
+      <div className="section-pad container-max relative z-10 flex min-h-[82svh] flex-col justify-start pt-20 pb-14 lg:min-h-[100svh] lg:justify-center lg:pb-24 lg:pt-28">
         <motion.div
           variants={heroStagger}
           initial="hidden"
           animate="visible"
           className="relative z-20 max-w-4xl lg:max-w-[56%]"
         >
-          {/* Mobile profile — larger, tighter to content */}
+          {/* Mobile profile — centered & larger */}
           <motion.div
             variants={fadeInUp}
-            className="mb-4 flex lg:hidden"
+            className="mb-5 flex justify-center lg:hidden"
           >
-            <div className="relative h-40 w-40 overflow-hidden rounded-2xl border border-border/80 bg-white/50 shadow-[var(--shadow-md)] sm:h-44 sm:w-44">
+            <div className="relative h-48 w-48 overflow-hidden rounded-2xl border border-border/80 bg-white/50 shadow-[var(--shadow-md)] sm:h-52 sm:w-52">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/profile1.svg"
