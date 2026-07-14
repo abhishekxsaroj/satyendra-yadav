@@ -10,7 +10,7 @@ export function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-[100svh] overflow-hidden gradient-mesh"
+      className="relative overflow-hidden gradient-mesh min-h-0 lg:min-h-[100svh]"
     >
       {/* Floating blobs */}
       <motion.div
@@ -74,73 +74,75 @@ export function Hero() {
         />
       </svg>
 
-      <div className="section-pad container-max relative z-10 flex min-h-[100svh] flex-col justify-center pb-24 pt-28">
+      <div className="section-pad container-max relative z-10 flex flex-col justify-start pt-20 pb-8 lg:min-h-[100svh] lg:justify-center lg:pb-24 lg:pt-28">
         <motion.div
           variants={heroStagger}
           initial="hidden"
           animate="visible"
           className="relative z-20 max-w-4xl lg:max-w-[56%]"
         >
+          {/* Mobile profile — larger, tighter to content */}
           <motion.div
             variants={fadeInUp}
-            className="mb-8 flex lg:hidden"
+            className="mb-4 flex lg:hidden"
           >
-            <div className="relative h-28 w-28 overflow-hidden rounded-2xl border border-border/80 bg-white/50 shadow-[var(--shadow-md)] sm:h-32 sm:w-32">
+            <div className="relative h-40 w-40 overflow-hidden rounded-2xl border border-border/80 bg-white/50 shadow-[var(--shadow-md)] sm:h-44 sm:w-44">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/profile1.svg"
                 alt={SITE.name}
                 className="h-full w-full object-cover object-top"
               />
+              <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-white/40 to-transparent" />
             </div>
           </motion.div>
 
           <motion.p
             variants={fadeInUp}
-            className="mb-5 text-xs font-semibold uppercase tracking-[0.22em] text-primary sm:text-sm"
+            className="mb-2 text-xs font-semibold uppercase tracking-[0.22em] text-primary sm:mb-5 sm:text-sm"
           >
             Warehouse Operations · Supply Chain
           </motion.p>
 
           <motion.h1
             variants={fadeInUp}
-            className="font-display text-[clamp(2rem,5vw,3.6rem)] font-semibold leading-[1.1] tracking-tight text-foreground"
+            className="font-display text-[clamp(1.75rem,6.5vw,3.6rem)] font-semibold leading-[1.12] tracking-tight text-foreground"
           >
             {SITE.name}
           </motion.h1>
 
-          <motion.div variants={fadeInUp} className="mt-5 space-y-1">
-            <p className="text-lg font-medium text-foreground/90 sm:text-xl">
+          <motion.div variants={fadeInUp} className="mt-2 space-y-0.5 sm:mt-5 sm:space-y-1">
+            <p className="text-base font-medium text-foreground/90 sm:text-xl">
               Team Leader
             </p>
-            <p className="text-base text-secondary sm:text-lg">
+            <p className="text-sm text-secondary sm:text-lg">
               Warehouse Operations · Supply Chain Management
             </p>
           </motion.div>
 
           <motion.p
             variants={fadeInUp}
-            className="mt-6 max-w-2xl text-base leading-relaxed text-secondary sm:text-lg"
+            className="mt-3 max-w-2xl text-sm leading-relaxed text-secondary sm:mt-6 sm:text-lg"
           >
             {SITE.tagline}
           </motion.p>
 
           <motion.div
             variants={fadeInUp}
-            className="mt-10 flex flex-wrap items-center gap-3 sm:gap-4"
+            className="mt-5 flex flex-wrap items-center gap-3 sm:mt-10 sm:gap-4"
           >
-            <Button href={CONTACT.resumeUrl} size="lg" magnetic>
+            <Button href={CONTACT.resumeUrl} size="md" className="sm:h-14 sm:px-8 sm:text-base" magnetic>
               <Download size={18} />
               Download Resume
             </Button>
-            <Button href="#contact" variant="secondary" size="lg" magnetic>
+            <Button href="#contact" variant="secondary" size="md" className="sm:h-14 sm:px-8 sm:text-base" magnetic>
               <Mail size={18} />
               Contact Me
             </Button>
           </motion.div>
         </motion.div>
 
-        {/* Profile portrait */}
+        {/* Profile portrait — desktop */}
         <motion.div
           initial={{ opacity: 0, x: 40, filter: "blur(10px)" }}
           animate={{ opacity: 1, x: 0, filter: "blur(0px)" }}
@@ -163,7 +165,7 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.6 }}
-          className="absolute bottom-8 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2 text-secondary"
+          className="mt-6 hidden flex-col items-center gap-2 self-center text-secondary lg:absolute lg:bottom-8 lg:left-1/2 lg:mt-0 lg:flex lg:-translate-x-1/2"
           data-cursor="button"
         >
           <span className="text-[11px] font-medium uppercase tracking-[0.2em]">
